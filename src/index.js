@@ -1,4 +1,4 @@
-// alert('Olá Codesigner');
+import Alert from './alert';
 
 class User {
     createUser() {
