@@ -1,3 +1,4 @@
+import './styles/theme.scss';
 import Alert from './alert';
 
 class User {
