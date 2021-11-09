@@ -1,13 +1,5 @@
-import './styles/theme.scss';
-import Alert from './alert';
+import Button from './components/Button/index';
 
-class User {
-    createUser() {
-        console.log('created');
-        return;
-    }
-}
+const app = document.getElementById('app');
 
-let user = new User;
-
-user.createUser();
+app.appendChild(Button);
