@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.wow-page-layout {
+  display: grid;
+  grid-template-columns: 360px auto 360px;
+  grid-template-rows: 80px auto;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "sbleft main sbright";
+}
+
+.wow-navbar {
+  grid-area: navbar;
+  background: yellow;
+}
+
+.wow-sbleft {
+  grid-area: sbleft;
+  background: blue;
+  padding: 40px;
+}
+
+.wow-sbright {
+  grid-area: sbright;
+  background: green;
+  padding: 40px;
+}
+
+.wow-main {
+  grid-area: main;
+  background: orange;
+  padding: 40px;
+}
